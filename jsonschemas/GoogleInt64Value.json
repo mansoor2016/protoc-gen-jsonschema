@@ -6,7 +6,7 @@
             "properties": {
                 "big_number": {
                     "additionalProperties": true,
-                    "type": "string"
+                    "type": ["string", "integer"]
                 }
             },
             "additionalProperties": true,

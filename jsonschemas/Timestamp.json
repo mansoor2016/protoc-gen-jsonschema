@@ -5,8 +5,15 @@
         "Timestamp": {
             "properties": {
                 "timestamp": {
-                    "type": "string",
-                    "format": "date-time"
+                    "oneOf": [
+                        {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
                 }
             },
             "additionalProperties": true,

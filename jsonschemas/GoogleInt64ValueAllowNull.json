@@ -10,7 +10,7 @@
                             "type": "null"
                         },
                         {
-                            "type": "string"
+                            "type": ["string", "integer"]
                         }
                     ],
                     "title": "Int 64 Value",
